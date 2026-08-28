@@ -17,7 +17,7 @@ spec:
       containers:
       - name: flask-container
         image: flask-app:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Never
         ports:
           - containerPort: 5000
         envFrom:
