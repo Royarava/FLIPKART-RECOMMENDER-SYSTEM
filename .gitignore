@@ -1,0 +1,5 @@
+.env
+venv/
+.venv/
+.venv-py313/
+FLIPKART_RECOMMENDER.egg-info/
